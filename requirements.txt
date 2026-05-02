@@ -1,0 +1,25 @@
+# Google API Libraries
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+
+# Email Handling
+beautifulsoup4
+
+# Resume Reading
+pdfplumber
+python-docx
+
+# Excel Sheet
+openpyxl
+
+# Hugging Face AI Models
+transformers
+torch
+sentencepiece
+accelerate
+
+# Utilities
+python-dateutil
+tqdm

@@ -1,0 +1,6 @@
+.env 
+webearl_templates/ 
+models/ 
+token.json 
+credentials.json 
+__pycache__/ 

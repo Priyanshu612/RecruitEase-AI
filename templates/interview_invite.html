@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<body style="margin:0; padding:0; background-color:#f4f6f9; font-family: Arial, Helvetica, sans-serif;">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f6f9; padding:20px;">
+    <tr>
+      <td align="center">
+
+        <table width="600" cellpadding="0" cellspacing="0"
+               style="background-color:#ffffff; border-radius:8px;
+                      box-shadow:0 0 10px rgba(0,0,0,0.08); overflow:hidden;">
+
+         <!-- HEADER -->
+          <tr>
+            <td style="padding:20px; border-bottom:1px solid #e5e5e5;">
+              <table width="100%">
+                <tr>
+                  <td align="right"
+                      style="font-size:13px; color:#7f8c8d; line-height:1.6;">
+                    Human Resources Department<br>
+                    Contact: {{COMPANY_EMAIL}}<br>
+                    Website: {{COMPANY_WEBSITE}}
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ================= TITLE ================= -->
+          <tr>
+            <td align="center" style="padding:25px 20px 10px;">
+              <h1 style="margin:0; font-size:24px; color:#27ae60;">
+                Interview Invitation
+              </h1>
+              <p style="margin:8px 0 0 0; font-size:13px; color:#7f8c8d;">
+                Congratulations! You have been shortlisted.
+              </p>
+            </td>
+          </tr>
+
+          <!-- ================= BODY ================= -->
+          <tr>
+            <td style="padding:10px 35px 25px;
+                       font-size:15px;
+                       color:#2c3e50;
+                       line-height:1.7;">
+
+              <p>Dear <strong>{{CANDIDATE_NAME}}</strong>,</p>
+
+              <p>
+                Greetings from <strong>WebEarl Technologies Pvt Ltd.</strong>!
+                We are a trusted technology company specializing in web, mobile,
+                and digital solutions — committed to building innovative products
+                and empowering talent.
+              </p>
+
+              <p>
+                We have reviewed your application for the position of
+                <strong style="color:#1F4E79;">{{JOB_ROLE}}</strong> and
+                are pleased to inform you that you have been
+                <strong>shortlisted for an interview</strong>.
+              </p>
+
+              <!-- INTERVIEW DETAILS TABLE -->
+              <p><strong>Your Interview Details:</strong></p>
+
+              <table width="100%" cellpadding="0" cellspacing="0"
+                     style="border:1px solid #e0e0e0; border-radius:6px;
+                            margin:10px 0 20px 0;">
+
+                <tr style="background-color:#f9f9f9;">
+                  <td style="padding:12px 15px; width:40%;
+                             border-bottom:1px solid #e0e0e0;">
+                    <strong>Interview Date</strong>
+                  </td>
+                  <td style="padding:12px 15px;
+                             border-bottom:1px solid #e0e0e0;
+                             color:#1F4E79; font-weight:bold;">
+                    {{INTERVIEW_DATE}}
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:12px 15px; width:40%;
+                             border-bottom:1px solid #e0e0e0;">
+                    <strong>Interview Time</strong>
+                  </td>
+                  <td style="padding:12px 15px;
+                             border-bottom:1px solid #e0e0e0;
+                             color:#1F4E79; font-weight:bold;">
+                    {{INTERVIEW_TIME}} (IST)
+                  </td>
+                </tr>
+
+                <tr style="background-color:#f9f9f9;">
+                  <td style="padding:12px 15px;
+                             border-bottom:1px solid #e0e0e0;">
+                    <strong>Position</strong>
+                  </td>
+                  <td style="padding:12px 15px;
+                             border-bottom:1px solid #e0e0e0;">
+                    {{JOB_ROLE}}
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:12px 15px;
+                             border-bottom:1px solid #e0e0e0;">
+                    <strong>Interview Mode</strong>
+                  </td>
+                  <td style="padding:12px 15px;
+                             border-bottom:1px solid #e0e0e0;">
+                    Offline (at our office)
+                  </td>
+                </tr>
+
+                <tr style="background-color:#f9f9f9;">
+                  <td style="padding:12px 15px;">
+                    <strong>Company</strong>
+                  </td>
+                  <td style="padding:12px 15px;">
+                    WebEarl Technologies Pvt Ltd.
+                  </td>
+                </tr>
+
+              </table>
+
+              <!-- WHAT TO PREPARE -->
+              <p><strong>What to Prepare:</strong></p>
+              <ul style="color:#2c3e50; line-height:2.0; margin:5px 0 20px 0;">
+                <li>Updated Resume / CV</li>
+                <li>Portfolio or previous work samples (if any)</li>
+                <li>Be available 15 minutes before the scheduled time</li>
+              </ul>
+
+              <p style="margin-top:15px;">
+                <strong>Please confirm your availability</strong> by replying
+                to this email. If you need to reschedule, please contact us at
+                <a href="mailto:{{COMPANY_EMAIL}}"
+                   style="color:#1F4E79;">{{COMPANY_EMAIL}}</a>
+                at the earliest.
+              </p>
+
+              <p style="margin-top:25px;">
+                Best Regards,<br>
+                <strong style="color:#1F4E79;">HR Team</strong><br>
+                <strong>WebEarl Technologies Pvt Ltd.</strong><br>
+                <span style="font-size:13px; color:#7f8c8d;">
+                  {{COMPANY_ADDRESS}}
+                </span>
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- ================= FOOTER ================= -->
+          <tr>
+            <td align="center"
+                style="padding:15px; background-color:#ecf0f1;
+                       font-size:12px; color:#7f8c8d; line-height:1.6;
+                       border-top:1px solid #e5e5e5;">
+              © {{COMPANY_NAME}}. All rights reserved.<br>
+              <a href="{{COMPANY_WEBSITE}}"
+                 style="color:#1F4E79; text-decoration:none;">
+                {{COMPANY_WEBSITE}}
+              </a><br>
+              <span style="font-size:11px;">
+                This is an automated email from our HR system.
+                Please do not reply directly to this email if unintended.
+              </span>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
